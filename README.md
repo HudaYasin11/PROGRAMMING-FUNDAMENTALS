@@ -1,47 +1,42 @@
-# 🏫 Campus Navigation and Management System
+# 🧠 Programming Fundamentals (C++)
 
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Console App](https://img.shields.io/badge/Console_App-4D4D4D?style=for-the-badge&logo=windows-terminal&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+![UET Lahore](https://img.shields.io/badge/UET_Lahore-BS_Computer_Science-blue?style=for-the-badge)
+![Semester](https://img.shields.io/badge/Semester-1st-orange?style=for-the-badge)
 
 ## 📌 Overview
-A comprehensive console-based C++ application for campus management, navigation, and academic resource access. Developed as a Semester 1 project demonstrating proficiency in **file handling, data structures, and user management**.
+This repository contains all my first-semester **Programming Fundamentals (PF)** assignments completed during my Bachelor of Computer Science at **UET Lahore**. 
+
+The purpose of this repository is to track my progress and build a strong foundation in logic building, problem-solving, and core programming concepts using **C++**.
 
 ---
 
-## ✨ Key Features
-
-### 👨‍💼 Admin Portal
-*   ✅ Secure login with approval hierarchy
-*   ✅ Complete student management (Add, Search, Update, Delete)
-*   ✅ Course catalog administration
-*   ✅ Faculty management and course assignments
-*   ✅ Admin request approval system
-
-### 👨‍🎓 Student Portal
-*   ✅ Campus navigation tools (Map, Route Finder, Timetable)
-*   ✅ Academic resources (Fresher Tips, FAQs)
-*   ✅ Course browsing and search
-*   ✅ Secure authentication system
-
-### 🔧 Technical Features
-*   ✅ File-based persistent data storage
-*   🎨 Color-coded console interface
-*   🛡️ Input validation and error handling
-*   🧩 Modular and organized code structure
-*   🔊 Sound feedback for user interactions
+## 🛠️ Concepts Covered
+Throughout these assignments, I have implemented and practiced:
+*   **Basics:** Variables, data types, operators, and input/output.
+*   **Control Structures:** If-else statements, switch cases, and loops (for, while, do-while).
+*   **Functions:** User-defined functions, pass by value, and pass by reference.
+*   **Arrays & Strings:** 1D arrays, 2D arrays, and basic string manipulation.
+*   **File Handling:** Reading from and writing to text files using `fstream`.
 
 ---
 
-## 🚀 Getting Started
+## 📂 Repository Structure
+The assignments are organized by topic/assignment number:
+*   📁 `Assignment_01` - Basics & Control Flow
+*   📁 `Assignment_02` - Loops & Nested Loops
+*   📁 `Assignment_03` - Functions & Arrays
+*   📁 `Assignment_04` - Strings & File Handling
+*(Note: Adjust these folder names to match exactly what you have in your repo!)*
 
-### Prerequisites
-*   **Windows OS** (due to console-specific features like sound and color)
-*   **C++ Compiler** (MinGW/GCC/Visual Studio)
+---
 
-### Installation & Run
-1. Download all project files into a single folder.
-2. Open your terminal or command prompt in that folder.
-3. Compile the program using `g++`:
+## 🚀 How to Compile & Run
+If you want to test any of the `.cpp` files locally:
+
+1. Ensure you have a C++ compiler installed (like MinGW/GCC).
+2. Open your terminal or command prompt.
+3. Navigate to the folder of the specific assignment.
+4. Compile the file:
    ```bash
-   g++ -o campus_system main.cpp
+   g++ filename.cpp -o output
